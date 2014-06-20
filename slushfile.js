@@ -3,7 +3,7 @@
  * https://github.com/arvindr21/slush-webstarterkit
  *
  * Copyright (c) 2014, Arvind Ravulavaru
- * Licensed under the MIT license.
+ * Licensed under the Apache 2.0 license.
  */
 
 'use strict';
