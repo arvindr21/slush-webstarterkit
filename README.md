@@ -48,7 +48,7 @@ $ gulp serve
 ```
 to launch the app.
 
-Please refer [here](https://developers.google.com/web/fundamentals/) and [here](https://developers.google.com/web/fundamentals/tools/setup/setup_kit).
+Please refer [here](https://developers.google.com/web/fundamentals/) and [here](https://developers.google.com/web/fundamentals/tools/setup/setup_kit) for next steps.
 
 ## Getting To Know Slush
 
