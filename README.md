@@ -36,6 +36,18 @@ $ cd my-slush-webstarterkit && slush webstarterkit
 
 ### Running the app
 
+Execute 
+
+```bash
+$ gulp 
+``` 
+to build the app for the first time and then run 
+
+```bash
+$ gulp serve
+```
+to launch the app.
+
 Please refer [here](https://developers.google.com/web/fundamentals/) and [here](https://developers.google.com/web/fundamentals/tools/setup/setup_kit).
 
 ## Getting To Know Slush
@@ -55,7 +67,6 @@ If you have any problem or suggestion please open an issue [here](https://github
 
 ## License 
 
-All Rights below to https://developers.google.com/web/starter-kit
+All Rights Reserved to https://developers.google.com/web/starter-kit
 
-Apache 2.0
-Copyright 2014 Google Inc
+Apache 2.0 | Copyright 2014 Google Inc
