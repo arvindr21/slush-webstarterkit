@@ -68,4 +68,5 @@ If you have any problem or suggestion please open an issue [here](https://github
 ## License 
 
 All Rights Reserved to https://developers.google.com/web/starter-kit
+
 Apache 2.0 | Copyright 2014 Google Inc
