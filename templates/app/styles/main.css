@@ -62,7 +62,6 @@ body {
   color: #fefefe;
   float: none;
   max-width: none;
-  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   line-height: 60px;
 }
@@ -158,9 +157,9 @@ button.menu img {
 
 .navdrawer-container h4,
 .navdrawer-container ul li a {
-  height: 60px;
-  padding: 0 20px;
-  line-height: 60px;
+  height: auto;
+  padding: 17px 20px;
+  line-height: 1.4;
 }
 
 .navdrawer-container h4 {
@@ -179,6 +178,7 @@ button.menu img {
   text-decoration: none;
   color: white;
   transition: background-color 0.2s ease-out;
+  white-space: nowrap;
 }
 
 .navdrawer-container ul li {
@@ -188,7 +188,7 @@ button.menu img {
   padding: 0;
 }
 
-.navdrawer-container ul li:before {
+.navdrawer-container ul li::before {
   content: none;
 }
 
@@ -239,7 +239,7 @@ main {
     float: right;
   }
 
-  .app-bar:after {
+  .app-bar::after {
     content: ' ';
     display: block;
     height: 0;

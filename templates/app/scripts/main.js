@@ -7,7 +7,7 @@
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *    http://www.apache.org/licenses/LICENSE-2.0
  *
  *  Unless required by applicable law or agreed to in writing, software
  *  distributed under the License is distributed on an "AS IS" BASIS,
@@ -19,10 +19,12 @@
 (function () {
   'use strict';
 
-  var navdrawerContainer = document.querySelector('.navdrawer-container');
-  var appbarElement = document.querySelector('.app-bar');
-  var menuBtn = document.querySelector('.menu');
-  var main = document.querySelector('main');
+  var querySelector = document.querySelector.bind(document);
+
+  var navdrawerContainer = querySelector('.navdrawer-container');
+  var appbarElement = querySelector('.app-bar');
+  var menuBtn = querySelector('.menu');
+  var main = querySelector('main');
 
   function closeMenu() {
     appbarElement.classList.remove('open');
@@ -34,7 +36,6 @@
     navdrawerContainer.classList.toggle('open');
   }
 
-  main.addEventListener('touchstart', closeMenu);
   main.addEventListener('click', closeMenu);
   menuBtn.addEventListener('click', toggleMenu);
   navdrawerContainer.addEventListener('click', function (event) {
