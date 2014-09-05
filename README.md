@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/slush-webstarterkit.png?downloads=true&stars=true)](https://nodei.co/npm/slush-webstarterkit/)
 
-> One command scaffold-er for Google's Web Starter Kit (v0.4.0). No questions asked!
+> One command scaffold-er for Google's Web Starter Kit (v0.5.1). No questions asked!
  
 ## Getting Started
 

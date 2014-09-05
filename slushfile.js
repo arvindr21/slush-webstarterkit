@@ -20,7 +20,14 @@ gulp.task('default', function (done) {
     var prompts = [];
     inquirer.prompt(prompts,
         function (answers) {
-            gulp.src(__dirname + '/templates/**')
+            gulp.src(__dirname + '/templates/fonts/**')
+                .pipe(conflict('./app/fonts/'))
+                .pipe(gulp.dest('./app/fonts/'))
+                .on('end', function () {
+                    done();
+                });
+
+            gulp.src(__dirname + '/templates/app/**')
                 .pipe(template(answers))
                 .pipe(rename(function (file) {
                     if (file.basename.indexOf('__') == 0) {

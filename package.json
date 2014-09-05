@@ -1,7 +1,7 @@
 {
     "name": "slush-webstarterkit",
     "description": "One command scaffold-er for Google's Web Starter Kit. No questions asked!",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "homepage": "https://github.com/arvindr21/slush-webstarterkit",
     "author": {
         "name": "Arvind Ravulavaru",
@@ -33,7 +33,7 @@
         "gulp-conflict": "^0.1.1",
         "gulp-rename": "^1.2.0",
         "underscore.string": "^2.3.3",
-        "inquirer": "^0.4.1"
+        "inquirer": "^0.5.1"
     },
     "keywords": [
         "slushgenerator",
